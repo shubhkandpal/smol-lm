@@ -1,0 +1,17 @@
+name: l
+model:
+  d_model: 768
+  n_layers: 12
+  n_heads: 12
+  d_ff: 2048
+  vocab_size: 32768
+  context_len: 1024
+train:
+  tokens: 2500000000
+  batch_tokens: 524288
+  lr: 6.0e-4
+  warmup_frac: 0.02
+  min_lr_frac: 0.1
+  weight_decay: 0.1
+  grad_clip: 1.0
+  seed: 1

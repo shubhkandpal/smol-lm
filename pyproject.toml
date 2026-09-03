@@ -1,0 +1,44 @@
+[build-system]
+requires = ["hatchling>=1.25"]
+build-backend = "hatchling.build"
+
+[project]
+name = "smol-lm"
+version = "0.1.0"
+description = "A ~110M-parameter Llama-style LM trained from scratch, with a scaling-law study and instruction tuning."
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.11"
+authors = [{ name = "Shubh Kandpal" }]
+dependencies = [
+  "torch>=2.4",
+  "numpy>=1.26",
+  "tokenizers>=0.19",
+  "datasets>=3.0",
+  "wandb>=0.17",
+  "pyyaml>=6.0",
+  "tqdm>=4.66",
+  "scipy>=1.12",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0", "ruff>=0.6", "pre-commit>=3.7"]
+eval = ["lm-eval>=0.4.5", "transformers>=4.44", "safetensors>=0.4"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["smol_lm"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "W", "F", "I", "B", "UP", "SIM"]   # style, pyflakes, isort, bugbear, pyupgrade, simplify
+ignore = ["E501"]                                  # line length is the formatter's job
+
+[tool.ruff.lint.isort]
+known-first-party = ["smol_lm"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

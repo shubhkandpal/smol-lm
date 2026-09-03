@@ -1,0 +1,17 @@
+name: s
+model:
+  d_model: 384
+  n_layers: 8
+  n_heads: 6
+  d_ff: 1024
+  vocab_size: 32768
+  context_len: 1024
+train:
+  tokens: 300000000
+  batch_tokens: 262144
+  lr: 2.0e-3
+  warmup_frac: 0.02
+  min_lr_frac: 0.1
+  weight_decay: 0.1
+  grad_clip: 1.0
+  seed: 1

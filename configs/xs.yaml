@@ -1,0 +1,17 @@
+name: xs
+model:
+  d_model: 256
+  n_layers: 6
+  n_heads: 4
+  d_ff: 704
+  vocab_size: 32768
+  context_len: 1024
+train:
+  tokens: 150000000
+  batch_tokens: 262144
+  lr: 3.0e-3
+  warmup_frac: 0.02
+  min_lr_frac: 0.1
+  weight_decay: 0.1
+  grad_clip: 1.0
+  seed: 1

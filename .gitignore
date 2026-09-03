@@ -1,0 +1,24 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+.pytest_cache/
+.ruff_cache/
+
+# data, checkpoints, experiment output live on Kaggle / HF / the pod, never in git
+data/raw/
+data/shards/
+runs/
+checkpoints/
+wandb/
+*.npy
+*.pt
+*.safetensors
+*.gguf
+
+.env
+kaggle.json
+.DS_Store
+.vscode/
