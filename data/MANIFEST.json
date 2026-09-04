@@ -1,0 +1,23 @@
+{
+  "repo": "HuggingFaceFW/fineweb-edu",
+  "subset": "sample/10BT",
+  "train_shards": [
+    "sample/10BT/000_00000.parquet",
+    "sample/10BT/001_00000.parquet",
+    "sample/10BT/002_00000.parquet",
+    "sample/10BT/003_00000.parquet",
+    "sample/10BT/004_00000.parquet",
+    "sample/10BT/005_00000.parquet",
+    "sample/10BT/006_00000.parquet",
+    "sample/10BT/007_00000.parquet",
+    "sample/10BT/008_00000.parquet",
+    "sample/10BT/009_00000.parquet",
+    "sample/10BT/010_00000.parquet",
+    "sample/10BT/011_00000.parquet",
+    "sample/10BT/012_00000.parquet"
+  ],
+  "val_shard": "sample/10BT/013_00000.parquet",
+  "train_sample_docs": 416421,
+  "val_docs": 45071,
+  "rule": "val_shard is never read for anything except validation"
+}
