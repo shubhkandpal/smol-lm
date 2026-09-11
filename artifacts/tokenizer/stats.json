@@ -1,0 +1,12 @@
+{
+  "vocab_size": 32768,
+  "special_tokens": {
+    "<|endoftext|>": 0,
+    "<|user|>": 1,
+    "<|assistant|>": 2,
+    "<|pad|>": 3
+  },
+  "trained_on_gb": 2.0,
+  "input": "data/raw/train_sample.jsonl",
+  "train_seconds": 52
+}

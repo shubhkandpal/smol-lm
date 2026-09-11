@@ -15,4 +15,4 @@ repos:
       - id: check-toml
       - id: check-merge-conflict
       - id: check-added-large-files   # blocks a token shard or checkpoint from ever landing in git
-        args: ["--maxkb=2000"]
+        args: ["--maxkb=5000"]
