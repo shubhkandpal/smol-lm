@@ -1,0 +1,33 @@
+{
+  "input": "data/raw/val.jsonl",
+  "mb_measured": 100.0,
+  "rows": [
+    {
+      "tokenizer": "smol-lm (ours)",
+      "vocab_size": 32768,
+      "bytes": 99999677,
+      "tokens": 21454841,
+      "bytes_per_token": 4.661,
+      "embedding_params_at_d768": 25165824,
+      "vs_gpt2_pct": 0.7
+    },
+    {
+      "tokenizer": "gpt2",
+      "vocab_size": 50257,
+      "bytes": 99999677,
+      "tokens": 21602942,
+      "bytes_per_token": 4.629,
+      "embedding_params_at_d768": 38597376,
+      "vs_gpt2_pct": 0.0
+    },
+    {
+      "tokenizer": "llama3",
+      "vocab_size": 128256,
+      "bytes": 99999677,
+      "tokens": 20966880,
+      "bytes_per_token": 4.769,
+      "embedding_params_at_d768": 98500608,
+      "vs_gpt2_pct": 3.0
+    }
+  ]
+}
