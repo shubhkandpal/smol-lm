@@ -1,0 +1,19 @@
+{
+  "split": "val",
+  "repo": "HuggingFaceFW/fineweb-edu",
+  "source_shards": [
+    "sample/10BT/013_00000.parquet"
+  ],
+  "tokenizer_sha256": "985853452a85b098ded0a6d624aaadf42c00333292ccd69931f2d8c38f060947",
+  "vocab_size": 32768,
+  "dtype": "uint16",
+  "eot_id": 0,
+  "total_tokens": 50000000,
+  "files": [
+    {
+      "file": "val_013_00000_000.npy",
+      "tokens": 50000000
+    }
+  ],
+  "minutes": 1.5
+}

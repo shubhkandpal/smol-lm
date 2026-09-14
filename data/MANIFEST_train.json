@@ -1,0 +1,159 @@
+{
+  "split": "train",
+  "repo": "HuggingFaceFW/fineweb-edu",
+  "source_shards": [
+    "sample/10BT/000_00000.parquet",
+    "sample/10BT/001_00000.parquet",
+    "sample/10BT/002_00000.parquet",
+    "sample/10BT/003_00000.parquet",
+    "sample/10BT/004_00000.parquet",
+    "sample/10BT/005_00000.parquet",
+    "sample/10BT/006_00000.parquet",
+    "sample/10BT/007_00000.parquet",
+    "sample/10BT/008_00000.parquet",
+    "sample/10BT/009_00000.parquet",
+    "sample/10BT/010_00000.parquet",
+    "sample/10BT/011_00000.parquet",
+    "sample/10BT/012_00000.parquet"
+  ],
+  "tokenizer_sha256": "985853452a85b098ded0a6d624aaadf42c00333292ccd69931f2d8c38f060947",
+  "vocab_size": 32768,
+  "dtype": "uint16",
+  "eot_id": 0,
+  "total_tokens": 3000000000,
+  "files": [
+    {
+      "file": "train_000_00000_000.npy",
+      "tokens": 100000000
+    },
+    {
+      "file": "train_000_00000_001.npy",
+      "tokens": 100000000
+    },
+    {
+      "file": "train_000_00000_002.npy",
+      "tokens": 100000000
+    },
+    {
+      "file": "train_000_00000_003.npy",
+      "tokens": 100000000
+    },
+    {
+      "file": "train_000_00000_004.npy",
+      "tokens": 100000000
+    },
+    {
+      "file": "train_000_00000_005.npy",
+      "tokens": 100000000
+    },
+    {
+      "file": "train_000_00000_006.npy",
+      "tokens": 100000000
+    },
+    {
+      "file": "train_000_00000_007.npy",
+      "tokens": 48723876
+    },
+    {
+      "file": "train_001_00000_000.npy",
+      "tokens": 100000000
+    },
+    {
+      "file": "train_001_00000_001.npy",
+      "tokens": 100000000
+    },
+    {
+      "file": "train_001_00000_002.npy",
+      "tokens": 100000000
+    },
+    {
+      "file": "train_001_00000_003.npy",
+      "tokens": 100000000
+    },
+    {
+      "file": "train_001_00000_004.npy",
+      "tokens": 100000000
+    },
+    {
+      "file": "train_001_00000_005.npy",
+      "tokens": 100000000
+    },
+    {
+      "file": "train_001_00000_006.npy",
+      "tokens": 100000000
+    },
+    {
+      "file": "train_001_00000_007.npy",
+      "tokens": 47263065
+    },
+    {
+      "file": "train_002_00000_000.npy",
+      "tokens": 100000000
+    },
+    {
+      "file": "train_002_00000_001.npy",
+      "tokens": 100000000
+    },
+    {
+      "file": "train_002_00000_002.npy",
+      "tokens": 100000000
+    },
+    {
+      "file": "train_002_00000_003.npy",
+      "tokens": 100000000
+    },
+    {
+      "file": "train_002_00000_004.npy",
+      "tokens": 100000000
+    },
+    {
+      "file": "train_002_00000_005.npy",
+      "tokens": 100000000
+    },
+    {
+      "file": "train_002_00000_006.npy",
+      "tokens": 100000000
+    },
+    {
+      "file": "train_002_00000_007.npy",
+      "tokens": 47222834
+    },
+    {
+      "file": "train_003_00000_000.npy",
+      "tokens": 100000000
+    },
+    {
+      "file": "train_003_00000_001.npy",
+      "tokens": 100000000
+    },
+    {
+      "file": "train_003_00000_002.npy",
+      "tokens": 100000000
+    },
+    {
+      "file": "train_003_00000_003.npy",
+      "tokens": 100000000
+    },
+    {
+      "file": "train_003_00000_004.npy",
+      "tokens": 100000000
+    },
+    {
+      "file": "train_003_00000_005.npy",
+      "tokens": 100000000
+    },
+    {
+      "file": "train_003_00000_006.npy",
+      "tokens": 100000000
+    },
+    {
+      "file": "train_003_00000_007.npy",
+      "tokens": 45486012
+    },
+    {
+      "file": "train_004_00000_000.npy",
+      "tokens": 11304213
+    }
+  ],
+  "minutes": 79.9
+}
